@@ -1,0 +1,55 @@
+name: travel
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.3
+  convex_bottom_bar: ^3.2.0
+  cupertino_icons: ^1.0.2
+  dio: ^5.0.1
+  flutter:
+    sdk: flutter
+  # flutter_launcher_icons: ^0.12.0
+  flutter_svg: ^2.0.2
+  form_field_validator: ^1.1.0
+  flutter_easyloading: ^3.0.5
+  get: ^4.6.5
+  google_fonts: ^5.1.0
+  intl: ^0.18.0
+  lottie: ^2.2.0
+  shared_preferences: ^2.0.16
+  unicons: ^2.1.0
+  url_launcher: ^6.1.7
+  table_calendar: ^3.0.9
+  carousel_slider: ^4.2.1
+  photo_view: ^0.14.0
+  http: any
+  crypto: ^3.0.3
+  flutter_inappwebview: ^5.7.2+3
+  html: ^0.15.4
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# flutter_icons:
+#   android: "launcher_icon"
+#   ios: true
+#   image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/hotel/
+    - assets/images/car/
+    - assets/images/package/
+    - assets/icons/
+    - assets/json/
